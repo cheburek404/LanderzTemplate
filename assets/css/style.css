@@ -44,9 +44,10 @@ a:hover{
 }
 
 .btn:hover {
-    background-color: #fff;
+    background-color: inherit;
     border: 2px solid #00d2b5;
     color: #333;
+    box-shadow: none;
 }
 
 
@@ -320,4 +321,30 @@ a:hover{
     font-weight: 300;
     font-style: italic;
     color: #6c757d;
+}
+
+
+/* ABOUT */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item{
+    width: 35%;
+}
+
+.about__img{
+    width: 540px;
+    height: 340px;
+    border-radius: 4px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.about__title{
+    font-size: 32px;
+}
+
+.about__text{
+    color: #808080;
 }
