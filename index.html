@@ -17,16 +17,16 @@
             <div class="header__top">
                 <a href="index.html" class="header__logo">Landerz<span class="header__dot">.</span></a>
             </div>
-            <div class="header__inner">    
-                <nav class="nav">
-                    <a class="nav__link active" href="#">Home</a>
-                    <a class="nav__link" href="#">Features</a>
-                    <a class="nav__link" href="#">About Us</a>
-                    <a class="nav__link" href="#">Testimonials</a>
-                    <a class="nav__link" href="#">Blog</a>
-                    <a class="nav__link" href="#">Contact</a> 
-                </nav>
-            </div>
+        </div>
+        <div class="header__inner" id="myHeader">    
+            <nav class="nav">
+                <a class="nav__link active" href="#">Home</a>
+                <a class="nav__link" href="#features">Features</a>
+                <a class="nav__link" href="#about">About Us</a>
+                <a class="nav__link" href="#testi">Testimonials</a>
+                <a class="nav__link" href="#blog">Blog</a>
+                <a class="nav__link" href="#contact">Contact</a> 
+            </nav>
         </div>
     </header>
 
@@ -45,7 +45,7 @@
 
     
     <!-- FEATURES -->
-    <section class="section">
+    <section class="section" id="features">
         <div class="container">
             <div class="section__header">
                 <h2 class="section__title">Features</h2>
@@ -194,14 +194,13 @@
                 <div class="prototype__right">
                     <img src="assets/img/p2.png" class="prototype__img">
                 </div>
-            </div>
-            
+            </div><!-- prototype -->
         </div>
     </div>
 
 
     <!-- ABOUT -->
-    <section class="section">
+    <section class="section" id="about">
         <div class="container">
             <div class="section__header">
                 <h2 class="section__title">About Us</h2>
@@ -219,10 +218,149 @@
                         dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.</p>
                     <button class="btn">Learn More</button>
                 </div>
+            </div><!-- about -->
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section id="testi">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Testimonials</h2>
+            </div>
+
+            <div class="testi">
+                <div class="testi__item">
+                    <img src="assets/img/person2.jpg" alt="" class="testi__img">
+                    <div class="testi__quote">
+                        <p class="testi__text">“Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo 
+                        animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi 
+                        earum unde iusto.”</p>
+                        <p class="testi__author">Roger Spears</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
+    <!-- BLOG -->
+    <section id="blog">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Blog Posts</h2>
+            </div>
+
+            <div class="blog">
+                <div class="blog__item">
+                    <img src="assets/img/blog1.jpg" alt="" class="blog__img">
+                    <div class="blog__header">
+                        <a href="#" class="blog__title"><h3>Create interactive prototypes</h3></a>
+                        <p class="blog__author">Ham Brook &ensp;&#x2022;&ensp; Jan 18, 2019 &ensp;&#x2022;&ensp; <a href="#">News</a></p>
+                    </div>
+                    <div class="blog__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit 
+                            suscipit quaerat rerum voluptatibus a eius.</p>
+                        <a href="#" class="blog__continue">Continue Reading...</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <img src="assets/img/blog2.jpg" alt="" class="blog__img">
+                    <div class="blog__header">
+                        <a href="#" class="blog__title"><h3>Create interactive prototypes</h3></a>
+                        <p class="blog__author">James Phelps &ensp;&#x2022;&ensp; May 18, 2019 &ensp;&#x2022;&ensp; <a href="#">News</a></p>
+                    </div>
+                    <div class="blog__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit 
+                            suscipit quaerat rerum voluptatibus a eius.</p>
+                        <a href="#" class="blog__continue">Continue Reading...</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <img src="assets/img/blog3.jpg" alt="" class="blog__img">
+                    <div class="blog__header">
+                        <a href="#" class="blog__title"><h3>Create interactive prototypes</h3></a>
+                        <p class="blog__author">Bex Aukenov &ensp;&#x2022;&ensp; Mar 5, 2001 &ensp;&#x2022;&ensp; <a href="#">News</a></p>
+                    </div>
+                    <div class="blog__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit 
+                            suscipit quaerat rerum voluptatibus a eius.</p>
+                        <a href="#" class="blog__continue">Continue Reading...</a>
+                    </div>
+                </div>
+            </div><!-- blog -->
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Get In Touch</h2>
+            </div>
+
+            <div class="contact">
+                <form action="#" class="contact__form">
+                    <h4>Contact Form</h4>
+                    <div class="contact__header">
+                        <div class="contact__header--item">
+                            <label class="contact__label">First Name</label>
+                            <input type="text" class="contact__header--input">
+                        </div>
+                        <div class="contact__header--item">
+                            <label class="contact__label">Last Name</label>
+                            <input type="text" class="contact__header--input">
+                        </div>
+                    </div>
+                    <div class="contact__footer">
+                        <div class="contact__footer--item">
+                            <label class="contact__label">Email</label>
+                            <input type="email" class="contact__footer--input">
+                        </div>
+
+                        <div class="contact__footer--item">
+                            <label class="contact__label">Subject</label>
+                            <input type="text" class="contact__footer--input">
+                        </div>
+
+                        <div class="contact__footer--item">
+                            <label class="contact__label">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="7" class="contact__footer--input rounded-0" placeholder="Write your notes or questions here..."></textarea>
+                        </div>
+                    </div>
+                    <button class="btn">Send Message</button>
+                </form>
+            </div><!-- contact -->
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item">
+                    <a href="#" class="footer__icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="assets/js/app.js"></script>
 </body>
 </html>
